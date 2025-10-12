@@ -13,7 +13,7 @@ fn stat(freq :Vec<i32>, val :Vec<i32>) -> HashMap<String, i32> {
     
     for  i in 0..freq.len() {
             freq_sum += freq[i];
-            val_sum += freq[i] * val[i];
+            val_sum  +=  val[i];
      }
 
     let mut map = HashMap::new();
